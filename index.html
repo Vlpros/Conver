@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href='sstyle.css'>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700|Old+Standard+TT&display=swap&subset=cyrillic" rel="stylesheet">
+    <title>Converter</title>
+  </head>
+
+  <body>
+    <header class="page-header">
+      <div class="container">
+        <a class="header-email" href="BSC blockchain ">BSC blockchain</a>
+        <a class="header-phone" href="+7 (111)111-11-11">+7 (111)111-11-11</a>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero-image">
+        <div class="container">
+          <h1 class="heading"> Конвертер...</h1>
+          <p>Ниже вы сможете посмотреть курс криптовалют, а также аналитику Вашего портфеля</p>
+        </div>
+      </section>
+
+      <section class="intro">
+        <div class="container">
+          <h2 class="subheading">Добро пожаловать! Составьте свой порфтель и представленного ниже списка,прибавляя и уменьшая значения каждой валюты</h2>
+          
+          
+          <figure class="user-image">
+            <img src="converter.jpg" width="928" height="536" >
+          </figure>
+         
+            
+            
+            <h3>Портфель</h3> 
+            
+            <div>
+                <section class='portfeli'>
+                <p>Сумма портфеля в USD</p>
+            <input type ='text' id='port' placeholder="Общая сумма портфеля">
+            <button  class='count' type='submit'>Расчет портфеля</button>
+            <button class='deletecount'type='submit'>Очистить</button>
+            <p>BTC</p>
+            <input type='number' id='btcnumber' placeholder="Добавьте в портфель">
+            <p>ETH</p>
+            <input type='number'id='ethnumber'placeholder="Добавьте в портфель" >
+            <p>USD</p>
+            <input type='number' id='usdnumber'placeholder="Добавьте в портфель">
+            
+           
+      
+        <section>
+            <h4>КРИПТО-ВАЛЮТА</h5>
+              
+              
+              
+              <p>КУРС BTC</p>
+              <button type='submit'>BTC</button>
+              <input class='btccr' type="text" >
+              <p>КУРС ETH</p>
+              <button type='submit'>ETH</button>
+              <input class='ethcr' type="text" >
+              <p>КУРС USD</p>
+              <button type='submit'>USD</button>
+              <input class='usdcr' type="text" >
+              
+            <div>
+            
+             <h5>Выберите валюту</h5>
+            <select class='crypt'>
+                <option value='non' selected>Валюта 1</option>
+                <option value='BTC'>BTC</option>
+              <option value='ETH'>ETH</option>
+              <option value='USD'>USD</option>
+            </select>
+              
+            <select class='cryptto' >
+                <option value='non' selected >Валюта 2</option>
+                <option value='BTC'  >BTC</option>
+                <option value='ETH'>ETH</option>
+                <option value='USD'>USD</option> 
+            </select>
+              
+            <h6>Введите кол-во валюты на обмен</h6>
+              
+              <input type ='text' id='sum' placeholder='Сколько меняем?'>
+              <p>Курс 1 валюты в USD.</p>
+              <input type ='text' id='pro' placeholder=""">
+              <p>Курс 2 валюты в USD. </p>
+              <input type ='text' id='del' placeholder="">
+              <button class='convertation' type='submit'>Конвертация</button>
+              <p>Итого:</p>
+              <input type= 'text' id='itog' placeholder="Получаем">
+              <button class='delete' type='submit'>Очистить</button>
+          </section>
+        </div>
+        </section>
+      </section>
+    </main>
+
+    <footer class="page-footer">
+      <div class="container">
+        <a class="footer-email" href="BSC blockchain">BSC blockchain</a>
+        <a class="footer-phone" href="tel:+7 (111)111-11-11">+7 (111)111-11-11
+        </a>
+      </div>
+    </footer>
+    <script src='converter.js'> </script>
+  </body>
+</html>
